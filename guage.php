@@ -1,4 +1,4 @@
-<?php include('guage-data/include.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,33 +61,24 @@
       <img   src="images/challenge.gif">
     </div>
     <!--  numbers 36 degrees apart -->
-    <?php
+        <img id="left-arrow" style="transform:rotate(224.25deg);" src="images/concept-arrow.gif">
+    <div id="left-text" style="top:375px;left:0px;" >
+      <div id="percent" style="left:10px;">
+        <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/6.gif">
+        <img class="txt" style="height:40px;top:5px;left:40px;" src="images/out-of-10.gif">
 
-    $conceptNumbers = str_split($concept);
-    $challengeNumbers = str_split($challenge);
-
-    $conceptDegrees=$concept*3.45;
-    $challengeDegrees=$challenge*3.55;
-
-     ?>
-    <img id="left-arrow" style="transform:rotate(<?php echo $conceptDegrees ?>deg);" src="images/concept-arrow.gif">
-    <div id="left-text" style="top:375px;left:55px;" >
-      <div id="percent" style="left:80px;">
-        <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/<?php echo $conceptNumbers[0] ?>.gif">
-        <img class="txt1" style="height:70px;top:0px;left:40px;" src="images/<?php echo $conceptNumbers[1]  ?>.gif">
-        <img class="txt" style="height:50px;top:5px;left:100px;" src="images/percent.gif">
       </div>
-      <img class="txt" style="top:65px;left:13px;" src="images/average.gif">
+      <img class="txt" style="top:45px;left:65px;" src="images/average.gif">
     </div>
     <!-- RIGHT  -->
-    <img id="right-arrow" style="transform:rotate(<?php echo $challengeDegrees ?>deg);" src="images/challenge-arrow.gif">
-    <div id="right-text" style="top:375px;left:455px;" >
-      <div id="percent2" style="left:80px;">
-        <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/<?php echo $challengeNumbers[0] ?>.gif">
-        <img class="txt1" style="height:70px;top:0px;left:40px;" src="images/<?php echo $challengeNumbers[1] ?>.gif">
-        <img class="txt" style="height:50px;top:5px;left:100px;" src="images/percent.gif">
+    <img id="right-arrow" style="transform:rotate(230.75deg);" src="images/challenge-arrow.gif">
+    <div id="right-text" style="top:375px;left:420px;" >
+      <div id="percent2" style="left:0px;">
+        <img class="txt1" style="height:70px;top:0px;left:10px;" src="images/6.gif">
+        <img class="txt" style="height:40px;top:5px;left:50px;" src="images/out-of-10.gif">
+
       </div>
-      <img class="txt" style="top:65px;left:13px;" src="images/average.gif">
+      <img class="txt" style="top:45px;left:70px;" src="images/average.gif">
     </div>
 
   </div>
