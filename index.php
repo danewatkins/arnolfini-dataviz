@@ -10,6 +10,9 @@
 
     }
     body{
+      position: absolute;
+      top: 0px;
+      left: 0px;
       background: #BEE59D;
       overflow:hidden;
 
