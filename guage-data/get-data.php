@@ -1,7 +1,7 @@
 <?php
 
-echo "hello";
-$homepage = file_get_contents('http://deepdrizzle.net/arnolfini/pi7/guage-data/include.txt');
+$homepage = file_get_contents('http://deepdrizzle.net/arnolfini/pi7/get-data-viz.php');
+//$homepage=file_get_contents('http://localhost/arnolfini-dataviz/guage-data/include.txt');
 echo $homepage;
 $text= '<?php'. PHP_EOL;
 $text.= $homepage;

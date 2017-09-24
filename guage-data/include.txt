@@ -1,5 +1,5 @@
-$date = "2017-09-24 13:55";
-$concept = 64;
-$presentation = 62;
-$challenge = 63;
-$relevance = 70;
+$date = "2017-09-24 13:55 now";
+$concept = 84;
+$presentation = 92;
+$challenge = 93;
+$relevance = 80;
