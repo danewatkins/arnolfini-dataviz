@@ -1,0 +1,5 @@
+$date = "2017-09-24 13:55";
+$concept = 64;
+$presentation = 62;
+$challenge = 63;
+$relevance = 70;
