@@ -2,7 +2,7 @@
 <html>
 <head>
   <style>
-    video{
+    img{
       position: absolute;
       top: 0px;
       left: 0px;
@@ -10,9 +10,6 @@
 
     }
     body{
-      position: absolute;
-      top: 0px;
-      left: 0px;
       background: #BEE59D;
       overflow:hidden;
 
