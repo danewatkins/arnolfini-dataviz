@@ -1,4 +1,4 @@
-
+<?php include('guage-data/include.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,32 +51,47 @@
 </head>
 <body>
   <div id="wrapper">
-        <!--  numbers 36 degrees apart -->
+    <?php
+
+    // $relevance = $_GET["relevance"];
+    // $presentation = $_GET["presentation"];
+
+    $relevanceNumbers = str_split($relevance);
+    $presentationNumbers = str_split($presentation);
+
+
+    $relevanceDegrees=$relevance*3.6;
+    $presentationDegrees=$presentation*3.4;
+
+
+
+     ?>
+    <!--  numbers 36 degrees apart -->
     <!-- left -->
     <div id="left">
       <img src="images/relevance.gif">
     </div>
-    <img id="left-arrow" style="transform:rotate(255.6deg);" src="images/relevance-arrow.gif">
-    <div id="left-text" style="top:380px;left:25px;" >
-      <div id="percent" style="left:0px;">
-        <img class="txt1" style="height:60px;top:0px;left:0px;" src="images/7.gif">
+    <img id="left-arrow" style="transform:rotate(<?php echo $relevanceDegrees ?>deg);" src="images/relevance-arrow.gif">
+    <div id="left-text" style="top:380px;left:65px;" >
+      <div id="percent" style="left:30px;">
+        <img class="txt1" style="height:60px;top:0px;left:0px;" src="images/<?php echo $relevanceNumbers[0] ?>.gif">
         <img class="txt" style="height:40px;top:5px;left:30px;" src="images/out-of-10-.gif">
       </div>
-      <img class="txt" style="height:30px;top:45px;left:50px;" src="images/average.gif">
+      <img class="txt" style="height:30px;top:45px;left:0px;" src="images/average.gif">
     </div>
 
     <!-- right -->
     <div id="right">
       <img   src="images/presentation.gif">
     </div>
-    <img id="right-arrow" style="transform:rotate(227.8deg);" src="images/presentation-arrow.gif">
-    <div id="right-text" style="top:370px;left:425px;" >
-      <div id="percent2" style="left:0px;">
-        <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/6.gif">
+    <img id="right-arrow" style="transform:rotate(<?php echo $presentationDegrees ?>deg);" src="images/presentation-arrow.gif">
+    <div id="right-text" style="top:370px;left:475px;" >
+      <div id="percent2" style="left:20px;">
+        <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/<?php echo $presentationNumbers[0] ?>.gif">
         <img class="txt" style="height:40px;top:15px;left:40px;" src="images/out-of-10-.gif">
 
       </div>
-      <img class="txt" style="height:30px;top:55px;left:60px;" src="images/average.gif">
+      <img class="txt" style="height:30px;top:55px;left:0px;" src="images/average.gif">
     </div>
 
   </div>
