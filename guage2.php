@@ -60,7 +60,7 @@
     <div id="left-text" style="top:380px;left:25px;" >
       <div id="percent" style="left:0px;">
         <img class="txt1" style="height:60px;top:0px;left:0px;" src="images/7.gif">
-        <img class="txt" style="height:40px;top:5px;left:30px;" src="images/out-of-10.gif">
+        <img class="txt" style="height:40px;top:5px;left:30px;" src="images/out-of-10-.gif">
       </div>
       <img class="txt" style="height:30px;top:45px;left:50px;" src="images/average.gif">
     </div>
@@ -73,7 +73,7 @@
     <div id="right-text" style="top:370px;left:425px;" >
       <div id="percent2" style="left:0px;">
         <img class="txt1" style="height:70px;top:0px;left:0px;" src="images/6.gif">
-        <img class="txt" style="height:40px;top:15px;left:40px;" src="images/out-of-10.gif">
+        <img class="txt" style="height:40px;top:15px;left:40px;" src="images/out-of-10-.gif">
 
       </div>
       <img class="txt" style="height:30px;top:55px;left:60px;" src="images/average.gif">
